@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:    "nombre nombre nombre nombre"
+                            "ejercicio-1 ejercicio-1 ejercicio-1 ejercicio-1"
+                            "ejercicio-2 ejercicio-2 ejercicio-2 ejercicio-2"
+                            "ejercicio-3 ejercicio-3 ejercicio-3 ejercicio-3"
+                            "ejercicio-4 ejercicio-4 ejercicio-4 ejercicio-4"
+                            "ejercicio-5 ejercicio-5 ejercicio-5 ejercicio-5"
+                            "ejercicio-6 ejercicio-6 ejercicio-6 ejercicio-6";
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+h1{
+    grid-area: nombre;
+    text-align: center;
+    margin: 20px;
+}
+
+.ejercicio{
+    background: grey;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.ingreso-de-texto{
+    border: none;
+}
+
+
+/*****************************************************  EJERCICIO   1   ****************************************************/
+.ejercicio-uno{
+    grid-area: ejercicio-1;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ejercicio-uno p{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.ejercicio-uno form{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-uno div{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-uno .ingreso-de-texto{
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*****************************************************  EJERCICIO   2   ****************************************************/
+.ejercicio-dos{
+    grid-area: ejercicio-2;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ejercicio-dos p{
+    width: 80%;
+    margin: 20px;
+}
+
+.ejercicio-dos form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-dos div{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-dos label{
+    width: 35%;
+}
+
+.ejercicio-dos .ingreso-de-texto{
+    width: 55%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/*****************************************************  EJERCICIO   3   ****************************************************/
+.ejercicio-tres{
+    grid-area: ejercicio-3;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ejercicio-tres form{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+
+.ejercicio-tres div{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-tres p{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.ejercicio-tres div p{
+    padding: 10px;
+    margin: 0px;
+}
+
+.ejercicio-tres label{
+    display: block;
+    width: 40%;
+    margin: 10px;
+}
+
+.ejercicio-tres .ingreso-de-texto{
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*****************************************************  EJERCICIO   4   ****************************************************/
+.ejercicio-cuatro{
+    grid-area: ejercicio-4;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ejercicio-cuatro form{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-cuatro div{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-cuatro p{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.ejercicio-cuatro div p{
+    margin: 10px;
+    width: 80%;
+}
+
+.ejercicio-cuatro .ingreso-de-texto{
+    width: 58%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*****************************************************  EJERCICIO   5   ****************************************************/
+.ejercicio-cinco{
+    grid-area: ejercicio-5;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ejercicio-cinco form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-cinco div{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-cinco p{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.ejercicio-cinco div h5{
+    margin: 0px;
+}
+
+.ejercicio-cinco div p{
+    margin: 0px;
+    width: 80%;
+}
+
+.ejercicio-cinco form label{
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.ejercicio-cinco .ingreso-de-texto{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ejercicio-cinco .btn{
+    margin-top: 20px;
+    width: 30%;
+}
+
+/*****************************************************  EJERCICIO   6   ****************************************************/
+.ejercicio-seis{
+    grid-area: ejercicio-6;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ejercicio-seis form{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ejercicio-seis div{
+    margin: 20px;
+    background: #1a1a1a;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.ejercicio-seis p{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.ejercicio-seis div p{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.ejercicio-seis .ingreso-de-texto{
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.ejercicio-seis .btn{
+    width: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
